@@ -1,0 +1,26 @@
+# Root
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+*.sqlite3
+
+# Client (React)
+Client/node_modules/
+Client/build/
+Client/.env
+Client/.next/
+Client/.DS_Store
+
+# Server (Flask)
+Server/venv/
+Server/__pycache__/
+Server/instance/
+Server/.env
+Server/.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
